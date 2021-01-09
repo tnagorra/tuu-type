@@ -1,0 +1,35 @@
+{
+    "include": [
+        "src"
+    ],
+    "compilerOptions": {
+        "isolatedModules": true,
+        "jsx": "react",
+        "module": "esnext",
+        "noEmit": true,
+        "rootDir": "./src",
+        "target": "esnext",
+
+        "strict": true,
+
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+
+        "paths": {
+            "#components/*": ["./src/components/*"],
+            "#views/*": ["./src/views/*"],
+            "#utils/*": ["./src/utils/*"]
+        },
+
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true
+    }
+}

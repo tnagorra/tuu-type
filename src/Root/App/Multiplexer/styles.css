@@ -1,0 +1,30 @@
+.multiplexer {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    z-index: auto;
+    width: 100vw;
+    height: 100vh;
+
+    .navbar {
+        flex-shrink: 0;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        overflow: auto;
+
+        .view {
+            position: relative;
+            flex-grow: 1;
+        }
+
+        .footer {
+            flex-shrink: 0;
+        }
+    }
+
+}
+
